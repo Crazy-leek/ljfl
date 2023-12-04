@@ -1,0 +1,35 @@
+
+    
+    <view id="quizzes">
+     
+<view id="wrapper"></view>
+
+        <view class="quiz{{currentQ===quizIndex?' active':currentQ>quizIndex?' out':' in'}}" wx:for="{{quizzes}}" wx:for-index="quizIndex" wx:for-item="quiz">
+            <view class="quiz-index">{{quizIndex<9?quizIndex+1:quizIndex+1}} <text>/ {{totalQuizzes}}</text>
+            </view>
+            <text class="quiz-q" src="{{quiz.q}}">{{quiz.n}}</text>
+            <view class="quiz-options">
+                <view bindtap="select" class="quiz-option{{answers[quizIndex]===catIndex?' selected':''}}" data-option-index="{{catIndex}}" wx:for="cats" wx:for-index="catIndex" wx:for-item="cat">
+                    <image src="{{cats[catIndex].imageSrc}}"></image>
+                    <text>{{cats[catIndex].title}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="{{currentQ>totalQuizzes-1?'in':''}}" id="quizResult">
+            <text id="score">{{score}}分</text>
+            <view id="resultSheet">
+                <view class="result-row" wx:for="{{answers}}" wx:for-item="answer">
+                    <view class="result-quiz-name">{{quizzes[index].n}}</view>
+                    <view class="result-my-answer">{{cats[answer].title}}</view>
+                    <view class="result-right-answer{{answer===quizzes[index].c-1?' right-answer':''}}">{{answer===quizzes[index].c-1?'':cats[quizzes[index].c-1].title}}</view>
+                </view>
+                <view id="actions">
+                    <view bindtap="restart">再考一次</view>
+                    <button bindtap="share" openType="share">考考别人</button>
+                </view>
+            </view>
+        </view>
+    </view>
+    <actions page="{{page}}"></actions>
+    <view><image src='http://phototj.photo.store.qq.com/psc?/V10qaiPf0goHiV/ruAMsa53pVQWN7FLK88i5tN0.Fm7HlvfeLdb9Gqpx74vyppipzOkFiW48IeDT7V1I60HRqVoRBX05DEZjrIXdLcS.3egBEkCdYyaIr8xwh0!/b&bo=QAZABkAGQAYDEDU!&rf=viewer_311' style="margin-top: 95%;width: 100%;"></image>
+</view>

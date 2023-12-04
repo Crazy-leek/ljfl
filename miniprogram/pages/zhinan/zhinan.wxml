@@ -1,0 +1,7 @@
+<!--pages/zhinan/zhinan.wxml-->
+<view style='margin-top:10px;text-align: center' >
+<image src='http://a1.qpic.cn/psc?/V10qaiPf0goHiV/ruAMsa53pVQWN7FLK88i5mq9faIZIR1S*HWG.SQZe7dyOZ4hlaJX5*BUVFYRSFXlVaaehb2XT0iU9gMMI8qVKIrfHXs7ToX08k2ZVEfUzxg!/b&ek=1&kp=1&pt=0&bo=OARpCTgEaQkRECc!&tl=1&vuin=1327250032&tm=1655380800&dis_t=1655383780&dis_k=8fb7c12b99691704eed195cf0dc0fe7a&sce=50-1-1&rf=viewer_311' mode="aspectFill" style='height: 800px;'></image>
+<image src='http://a1.qpic.cn/psc?/V10qaiPf0goHiV/ruAMsa53pVQWN7FLK88i5pWCJzwfkX1zq*byv6N.boSvy3HWD4Mut**1Tir*PVNi.hDNNUOnkxPCJ*0dc8OzJZXS9so4ipj*If26UV1w6dw!/c&ek=1&kp=1&pt=0&bo=OASfCTgEnwkRECc!&tl=3&vuin=1327250032&tm=1655380800&dis_t=1655383776&dis_k=5e5217c97caef2393f91c3186041f733&sce=60-2-2&rf=viewer_311' mode="aspectFill" style='height: 800px'></image>
+<image src='http://a1.qpic.cn/psc?/V10qaiPf0goHiV/ruAMsa53pVQWN7FLK88i5mq9faIZIR1S*HWG.SQZe7c34Vzu3bcXCqmtU3E9UZkSE0dXxDbQ2uV1FKa06Fg32t6ddmoQEdXCuSUnTeAOoBE!/c&ek=1&kp=1&pt=0&bo=OASjCTgEowkRECc!&tl=3&vuin=1327250032&tm=1655380800&dis_t=1655383776&dis_k=a7d3daa41a4f452642b96cad721126a0&sce=60-2-2&rf=viewer_311' mode="aspectFill" style='height: 800px'></image>
+<image src='http://a1.qpic.cn/psc?/V10qaiPf0goHiV/ruAMsa53pVQWN7FLK88i5pWCJzwfkX1zq*byv6N.boQPHHAddw8VTAegCGSUEYJrMGU.idK*2UMCgzZIMwCKHOXOphuYA7jwqRm8BIs2o1k!/c&ek=1&kp=1&pt=0&bo=OATGCTgExgkRECc!&tl=3&vuin=1327250032&tm=1655380800&dis_t=1655383776&dis_k=406bbebe58b26e7d3be1517e15cf7927&sce=60-2-2&rf=viewer_311' mode="aspectFill" style='height: 800px'></image>
+</view>

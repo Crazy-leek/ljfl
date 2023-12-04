@@ -1,0 +1,29 @@
+<swiper class="swiper-container" indicator-dots="true" autoplay circular>
+<swiper-item><image src='http://phototj.photo.store.qq.com/psc?/V10qaiPf0goHiV/ruAMsa53pVQWN7FLK88i5tN0.Fm7HlvfeLdb9Gqpx75blqqQ3QiARsiV1JUYGpmv1fI0PExOHLc3hrmWtUcl23kDbiMAg2Xrcep*HhuPRAM!/b&bo=NARUAjQEVAIRECc!&rf=viewer_311' class='tu' ></image>
+</swiper-item>
+<swiper-item><image src='http://phototj.photo.store.qq.com/psc?/V10qaiPf0goHiV/ruAMsa53pVQWN7FLK88i5tN0.Fm7HlvfeLdb9Gqpx76XthjTxDJJwN4WabNBZet2cS9yZu8BYXthP7IGPhhg6ynYFcwzDE4cpvMjbbheRjA!/b&bo=NAQMAjQEDAIRECc!&rf=viewer_311' class='tu'></image>
+</swiper-item>
+<swiper-item><image src='http://r.photo.store.qq.com/psc?/V10qaiPf0goHiV/05RlWl8gsTOH*Z17MtCBzFVcxySKLBzr5Qvbg2fFykmczW998MgpZjZ6wKRymhVBJZutbThQWoMoznLBUmt9bw!!/o&ek=1&kp=1&pt=0&bo=BAXUAgQF1AIWADA!&tl=1&tm=1655359200&dis_t=1655361332&dis_k=5edcfbf06a7b762e2a28142644b34703&sce=0-12-12&rf=viewer_311' class='tu'></image>
+</swiper-item>
+</swiper>
+
+
+<view class="cu-bar bg-darkGray search">
+  <view class=" search-form  round " bindtap="goSearch">
+    <text class="cuIcon-search text-green"></text>
+    <input type="text" placeholder="输入垃圾名称" confirm-type="search" bindinput="searchIcon"></input>
+  </view>
+</view>
+<view class='ai-view'>
+  <text class='txt'>快来帮垃圾找到妈妈</text>
+  <image src='/images/paizhao.png' class='ai-paizhao' bindtap='onBindCamera' />
+  <text class='tip'>点击拍照</text>
+
+</view>
+<view class="box" wx:if="{{SHOW_TOP}}">
+  <view class='arrow'></view>
+  <view class='body' bindtap='showModal'>
+    <text>点击「添加到我的小程序」</text>
+  </view>
+</view>
+

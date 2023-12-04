@@ -1,0 +1,18 @@
+<image src='http://a1.qpic.cn/psc?/V10qaiPf0goHiV/ruAMsa53pVQWN7FLK88i5l*8RQZz3gfcXfeGVsTQ4mpAInqkVIL1H9KfIk0gvwFOAOW4FAPWmLohGcdlSdUbCcsijMJPuJJMFB23sgfba8U!/c&ek=1&kp=1&pt=0&bo=JAWIAiQFiAIRECc!&tl=3&vuin=1327250032&tm=1655359200&dis_t=1655362183&dis_k=61899305188b51a5b0e7b71ee9baeb71&sce=60-2-2&rf=viewer_311' class='tu'></image>
+
+<view class="cu-bar bg-darkGray search"bindtap="goSearch">
+  <view class=" search-form  round ">
+    <text class="cuIcon-search text-green"></text>
+    <input type="text" placeholder="输入垃圾名称" confirm-type="search" bindinput="searchIcon"></input>
+  </view>
+</view>
+<view class='top-view'>
+  <view>点击图片，拜访垃圾的兄弟姐妹们</view></view>
+  <view class='top-view' style='text-decoration: underline;'> <navigator url='../zhinan/zhinan'>或点击此处查看指南</navigator></view>
+
+<view class="grid col-2 padding-sm">
+  <view class="padding-sm " wx:for="{{ColorList}}" >
+    <image class="icon" src='{{item}}'bindtap="onClick"  data-index='{{index}}' wx:key></image>
+  </view>
+</view>
+
